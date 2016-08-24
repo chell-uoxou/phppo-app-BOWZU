@@ -1,0 +1,16 @@
+name: BOWZU-for-PHPPO
+path: src/chell_uoxou/main.php
+main: BOWZU_for_PHPPO\game
+version: 1.0.0
+api: 1.6.4_Dev
+load: STARTUP
+author: chell_uoxou
+description: 坊主が鯖を蒸します。
+commands:
+ bowzu:
+  permission: bowzu.command
+  usage: "bowzu <args>"
+permissions:
+ bowzu.command:
+  default: root
+  description: "allow all command"
